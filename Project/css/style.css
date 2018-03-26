@@ -1,0 +1,42 @@
+body{
+	background-color: slategrey;
+	text-align: left;
+}
+
+.header {
+	background-color: blue
+	padding-top:160px;
+	height:500px;
+	width:1400px;
+   background-image:url('../img/FIT.jpg');
+   background-position:center;
+   background-size: cover;
+   text-align: center;
+   
+}
+.header h1{
+	padding-top:250px;
+	text-align: center;
+	text-decoration-color:blue;
+}
+.main-content1,
+.main-content2{
+	width:40%;
+	padding-left: 20px;
+	padding-right: 20px
+	margin:auto;
+	max-width: 860px;
+}
+.main-content1{
+	float:left;
+}
+
+.main-content2{
+	float:right;
+	
+}
+.group:after{
+	content:"";
+	display:table;
+	clear:both;
+}
